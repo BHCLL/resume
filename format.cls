@@ -1,4 +1,12 @@
-\usepackage{hyperref,color,latexsym,verbatim,url,ulem,xeCJK}
+\usepackage{
+  hyperref,
+  color,
+  latexsym,
+  verbatim,
+  url,ulem,
+  xeCJK,
+  multirow
+}
 % \usepackage{latexsym,verbatim,url,CJKutf8}
 \usepackage[empty]{fullpage}
 
@@ -34,4 +42,10 @@
 \begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
     \textbf{#1} & #2 \\
     \textit{#3} & \textit{#4} \\
+\end{tabular*}\vspace{-6pt}}
+
+\newcommand{\ressubheadingsingle}[3]{
+\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+    \multirow{2}{*}{\textbf{#1}} & #2 \\
+    & \textit{#3} \\
 \end{tabular*}\vspace{-6pt}}
