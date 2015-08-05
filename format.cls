@@ -3,7 +3,8 @@
   color,
   latexsym,
   verbatim,
-  url,ulem,
+  url,
+  ulem,
   xeCJK,
   multirow
 }
