@@ -40,13 +40,18 @@
 \newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
 \newcommand{\resheading}[1]{{\large \colorbox{mygrey}{\begin{minipage}{\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
 \newcommand{\ressubheading}[4]{
-\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+\begin{tabular*}{6.6in}{l@{\extracolsep{\fill}}r}
     \textbf{#1} & #2 \\
-    \textit{#3} & \textit{#4} \\
+    \textit{#3} & #4 \\
 \end{tabular*}\vspace{-6pt}}
 
-\newcommand{\ressubheadingsingle}[3]{
-\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+\newcommand{\ressubsingleheading}[3]{
+\begin{tabular*}{6.6in}{@{\extracolsep{\fill}}lr}
     \multirow{2}{*}{\textbf{#1}} & #2 \\
-    & \textit{#3} \\
+    & #3 \\
 \end{tabular*}\vspace{-6pt}}
+
+\newcommand{\ressubsingleline}[3]{
+\begin{tabular*}{6.6in}{ll@{\extracolsep{\fill}}r}
+    \textbf{#1} & \quad\textit{#2} & #3 \\
+\end{tabular*}}
