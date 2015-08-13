@@ -6,7 +6,8 @@
   url,
   ulem,
   xeCJK,
-  multirow
+  multirow,
+  enumitem
 }
 % \usepackage{latexsym,verbatim,url,CJKutf8}
 \usepackage[empty]{fullpage}
@@ -16,9 +17,9 @@
     citecolor=black,%
     filecolor=black,%
     linkcolor=black,%
-    urlcolor=mygreylink     % can put red here to better visualize the links
+    urlcolor=black     % can put red here to better visualize the links
 }
-\definecolor{mygrey}{gray}{.85}
+\definecolor{mygrey}{gray}{.9}
 \definecolor{mygreylink}{gray}{.30}
 \definecolor{labelgrey}{gray}{.50}
 
@@ -40,18 +41,18 @@
 \newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
 \newcommand{\resheading}[1]{{\large \colorbox{mygrey}{\begin{minipage}{\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
 \newcommand{\ressubheading}[4]{
-\begin{tabular*}{6.6in}{l@{\extracolsep{\fill}}r}
+\begin{tabular*}{6.8in}{l@{\extracolsep{\fill}}r}
     \textbf{#1} & #2 \\
     \textit{#3} & #4 \\
 \end{tabular*}\vspace{-6pt}}
 
 \newcommand{\ressubsingleheading}[3]{
-\begin{tabular*}{6.6in}{@{\extracolsep{\fill}}lr}
+\begin{tabular*}{6.8in}{@{\extracolsep{\fill}}lr}
     \multirow{2}{*}{\textbf{#1}} & #2 \\
     & #3 \\
 \end{tabular*}\vspace{-6pt}}
 
 \newcommand{\ressubsingleline}[3]{
-\begin{tabular*}{6.6in}{ll@{\extracolsep{\fill}}r}
+\begin{tabular*}{6.8in}{ll@{\extracolsep{\fill}}r}
     \textbf{#1} & \quad\textit{#2} & #3 \\
 \end{tabular*}}
