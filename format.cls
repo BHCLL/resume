@@ -5,7 +5,7 @@
   verbatim,
   url,
   ulem,
-  xeCJK,
+  xeCJK, % replace with CJK for sharelatex.com
   multirow,
   enumitem
 }
