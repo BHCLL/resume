@@ -4,7 +4,7 @@ This is my resume. It's modified from [Todd C. Miller's](http://www.sudo.ws/todd
 
 ## HTML Version
 
-- URL: My online resume is [here][online-resume] (on github [here]). 
+- URL: My online resume is [here][online-resume] (on github [here][github-online-resume]). 
 - THEME: origin theme by [Flatty Resume][Flatty Resume], reversion theme by [Wenbo Jie's Resume][Wenbo Jie's Resume]. I just use Wenbo Jie's resume [sass file][Wenbo Jie's Resume Sass] and html structure, and modular resume with jekyll. What's more, most local javascript and css are replaced with cdn.
 
 [github-online-resume]: https://github.com/HereChen/herechen.github.io/tree/master/resume
