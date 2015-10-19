@@ -32,7 +32,7 @@
 \raggedbottom
 \raggedright
 \setlength{\tabcolsep}{0in}
-\setlength{\baselineskip}{15.6pt}
+\linespread{1.25}
 
 %-----------------------------------------------------------
 %Custom commands
