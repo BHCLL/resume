@@ -32,7 +32,7 @@
 \raggedbottom
 \raggedright
 \setlength{\tabcolsep}{0in}
-\linespread{1.25}
+%\linespread{1.25}
 
 %-----------------------------------------------------------
 %Custom commands
