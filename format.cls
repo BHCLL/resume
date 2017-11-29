@@ -4,6 +4,7 @@
 \usepackage{
   hyperref,
   color,
+  xcolor,
   latexsym,
   verbatim,
   url,
@@ -28,6 +29,7 @@
 \definecolor{mygrey}{gray}{.9}
 \definecolor{mygreylink}{gray}{.30}
 \definecolor{labelgrey}{gray}{.50}
+\definecolor{highlight}{RGB}{193, 39, 45}
 
 \raggedbottom
 \raggedright
